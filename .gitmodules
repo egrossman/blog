@@ -4,3 +4,6 @@
 [submodule "themes/pelican-alchemy"]
 	path = themes/pelican-alchemy
 	url = https://github.com/nairobilug/pelican-alchemy
+[submodule "output"]
+	path = output
+	url = git@github.com:egrossman/egrossman.github.io.git
