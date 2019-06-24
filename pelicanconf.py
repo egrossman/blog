@@ -20,21 +20,23 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Github', 'https://github.com/egrossman'),
+         ('LinkedIn', 'https://www.linkedin.com/in/elan-grossman-b0788365/'))
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# SOCIAL = (('You can add links in your config file', '#'),
+#           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
 
 MARKUP = ('md', 'ipynb')
 
-PLUGIN_PATH = './plugins'
+PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup']
+
+IGNORE_FILES = [".ipynb_checkpoints"]
+
+THEME = 'themes/pelican-alchemy/alchemy'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
